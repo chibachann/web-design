@@ -108,6 +108,17 @@ The actual custom-domain connection remains blocked until the target domain and 
 
 ## Phased delivery
 
+### Implementation status
+
+| Phase | Status | Completed |
+|---|---|---|
+| Phase 0 — Foundation | Complete | 2026-09-01 |
+| Phase 1 — Hub MVP | Next | — |
+| Phase 2 — First complete demo | Planned | — |
+| Phase 3 — Diverse starter collection | Planned | — |
+| Phase 4 — Production domain | Waiting for domain | — |
+| Phase 5 — Ongoing catalog expansion | Planned | — |
+
 ### Phase 0 — Foundation
 
 - initialize the site project on this feature branch;
@@ -116,6 +127,10 @@ The actual custom-domain connection remains blocked until the target domain and 
 - add project documentation and example environment configuration.
 
 Exit criterion: the root host and a placeholder demo resolve correctly in local and preview environments.
+
+Completed with a vinext foundation, typed style registry, host resolver, local
+subdomain rewrite, `/sites/[slug]` fallback, unknown-site 404 behavior, and
+automated routing/render tests.
 
 ### Phase 1 — Hub MVP
 
